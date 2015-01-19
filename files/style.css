@@ -215,6 +215,12 @@ padding: 20px 20px;
 	letter-spacing:8px;
 }
 
+a.themail{
+	letter-spacing:2px;
+	text-transform:lowercase;
+}
+
+
 .header .navigation-wrapper {
 	position:fixed;
 	margin:0 auto;
