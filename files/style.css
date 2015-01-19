@@ -44,7 +44,7 @@ a:link,
 a:visited {
 	text-decoration: none;
 	color: #000;
-	text-transform:lowercase;
+	text-transform:uppercase;
 	}
 a:hover {
 	color: #777;
@@ -52,6 +52,8 @@ a:hover {
 p {
 	margin-bottom: 20px;
 	color:grey;
+	
+	width:100%;
 	}
 h1 {
 	font-family:"proxima-nova";
@@ -157,6 +159,7 @@ margin-top: -160px;
 
 img.scenic{
 		max-width: 80%;
+	margin-left:15px;
 margin-bottom:24px;
 }
 
@@ -195,16 +198,16 @@ margin-bottom:24px;
 }
 
 .header .navigation li{
-	float:left;
-	width:84px;
-	text-align:left;
-	margin-left:5px;
-	font-size:11pt;
-	text-transform: uppercase;
-	font-family:"proxima-nova";
-	font-weight:800;
-	letter-spacing: 2px;
-	padding:20px 44px;
+/* float: left; */
+/* width: 84px; */
+text-align: left;
+/* margin-left: 5.7vw; */
+font-size: 14pt;
+text-transform: uppercase;
+font-family: "proxima-nova";
+font-weight: 800;
+letter-spacing: 2px;
+padding: 20px 20px;
 }
 
 .contactsme a{
@@ -227,7 +230,7 @@ margin-bottom:24px;
 .content,.content2,.content3{
 
 
-	padding: 75px 50px;
+	padding: 90px 12px 72px;
 	font-size:16pt;
 	line-height:22pt;
 	letter-spacing:1px;
@@ -236,6 +239,14 @@ margin-bottom:24px;
 .content{
 	margin-top:300px;
 	background: #F7F5E2;
+	padding:none;
+
+	
+}
+
+.content p{
+	background:#F7F5E2;
+width: 100%;
 }
 
 .content2, .second{
@@ -267,7 +278,9 @@ margin-bottom:24px;
 	text-decoration: none;
 }
 
-
+.blank{
+	visibility:hidden;
+}
 
 /* Clearfix */
 
