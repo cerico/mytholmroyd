@@ -76,6 +76,7 @@ function window_fade() {
         $('.navigation-wrapper').css('position','absolute')
              $('.navigation-wrapper').css('margin-top','300px')
               $('a:link').css('color','#000')
+                $('.profile').css({'opacity' : 0})
  	    
     } 
     else {
